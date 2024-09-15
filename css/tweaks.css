@@ -11,7 +11,9 @@ main:only-child h2 {
   margin: 0 auto 2rem;
 }
 
-main:only-child p {
+main:only-child p,
+main:only-child ul,
+main:only-child ol {
   font-size: 1.1rem;
   line-height: 180%;
 }
