@@ -1,0 +1,25 @@
+main:only-child {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+main:only-child p, 
+main:only-child ul,
+main:only-child ol,
+main:only-child h2 {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+main:only-child p {
+  font-size: 1.1rem;
+  line-height: 180%;
+}
+
+main:only-child h2 {
+  margin-top: 4rem;
+}
+
+main:only-child img {
+  margin: 2rem auto 4rem;
+}
